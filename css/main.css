@@ -1,0 +1,144 @@
+@charset "euckr";
+@import url(reset.css);
+@import url(font.css);
+
+/* 공통 시작 */
+
+:root{
+    --color-white:#FFF;
+    --color-black:#000;
+}
+
+
+.container{
+    width:1000px;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    font-family: "Source Sans Black";
+    font-size:80px;
+}
+
+h2{
+    font-family: "PlayFair Black";
+    font-size:60px;
+    margin-bottom: 55px;
+}
+
+.profileTit{font-family: "PTSerif BoldItalic";}
+.profileCont{font-family: "Source Sans Regular"; font-size:12px;}
+.profileIntroduce{font-family: "PTSerif Italic"; font-size:16px; margin-top:32px; line-height: 24px; text-align: left;}
+.startLivingBtn{
+    font-family: "Source Sans SB";
+    font-size:16px;
+    background-color: var(--color-white);
+    width:280px;
+    height:56px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    margin-top:56px;
+    margin-bottom:85px;
+    border:none;
+}
+
+.startLivingBtn.main{
+    background-color: #99cc00; color:var(--color-white); margin-bottom:0;
+}
+  
+
+.mainCont{font-family: "PTSerif Regular"; color:#666666;font-size:18px; line-height: 28px;}
+
+
+
+/* 공통 끝 */
+
+
+/* header */
+
+.header{
+    background:url(../images/BG.png) center center no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    padding-top:27px;
+}
+
+.header .menuBG{
+    background-color: var(--color-white);
+    display:flex;
+    justify-content: space-between;
+    margin-top:27px;
+    height:55px;
+    line-height:55px;
+}
+
+.header .navLogo{
+    font-family: "PTSerif BoldItalic";
+    margin-left:30px;
+    font-size:26px;
+}
+
+.header .menu{
+    font-family: "Source Sans SB";
+    display:flex;
+}
+
+.header .menu li{
+    margin-right:28px;
+    letter-spacing: 2px;
+}
+
+.header .menu li:last-child{margin-right:29px; color:#99cc00;}
+
+.header section.hMain{color:var(--color-white); margin-top:104px; text-align: center;}
+
+.header .hMain .hMainTit{margin-bottom:63px;}
+.header .hMain .hMainTit{margin-bottom:63px;}
+.header .hMain .hMainInfo .hMainMsg{font-family: "PlayFair Italic"; font-size:26px;}
+.header .hMain .hMainProfile{display:flex; justify-content: center; align-items: center; margin-top:50px;}
+.header .hMain .hMainProfileL{position:relative;}
+.header .hMain .hMainProfileL .profileNum{font-family: "Source Sans B"; background-color: #99cc00; width:30px; height:30px; line-height:30px; border-radius: 50%; position:absolute; top:-10px; left:33px;}
+.header .hMain .hMainProfileR{margin-left:21px;}
+.header .hMain .hMainProfileR .profileTit{margin-bottom:13px;}
+
+
+
+.daily{margin-top:97px;}
+
+
+.inspired{margin-top:196px;}
+
+.inspired .inspiredProfiles{margin-top:83px; display:flex; justify-content: space-around;}
+
+.inspired .inspiredProfileInfo{display:flex; text-align: left;}
+.inspired .inspiredProfileR{display:flex; flex-direction: column; justify-content: center; margin-left:17px;}
+.inspired .inspiredProfileR .profileTit{margin-bottom:12px;}
+
+
+.create{margin-top:93px; margin-bottom:113px;}
+
+.create .mainTit{margin-bottom:0;}
+.create .enteryouremail{
+    font-family: "Source Sans SB";
+    font-size: 16px;
+    color:var(--color-black);
+    width:430px; height:56px; line-height:56px; letter-spacing:1px;
+    border:none; margin-right:-5px;
+
+}
+
+
+.siteMap{
+    background-color: #333333; color:var(--color-white);
+}
+
+.siteMap .container{display: flex; justify-content: space-between; padding:32px 0px 52px 0px; }
+
+.siteMap .siteMapLogo{    font-family: "PlayFair Bold Italic";
+    margin-left: 30px;
+    font-size: 26px;
+}
+.siteMap .siteMapMenu{line-height: 28px; letter-spacing: 1px; text-align: left;}
+.siteMap .siteMapMenu .siteMap1st{font-family: "Source Sans SB";}    
+.siteMap .siteMapMenu .siteMap2st{font-family: "PTSerif Regular";}

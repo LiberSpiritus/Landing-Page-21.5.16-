@@ -1,0 +1,5 @@
+1. 구글 폰트 다운로드 
+	Source Sans Pro: Semibold, Black
+	playfair display : italic
+	PT serif :	BoldItalic, Regular
+
