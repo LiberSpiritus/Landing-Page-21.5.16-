@@ -152,6 +152,10 @@ h2{
 .siteMap .siteMapMenu .siteMap2st{font-family: "PTSerif Regular";}
 
 @media (max-width:992px){
+
+    .container{width:100%;}
+
+
     .header .menuBG, .header .menu{
         flex-direction: column;
     }
@@ -166,7 +170,7 @@ h2{
 }
 
 @media (max-width:768px){
-    .inspired .inspiredProfiles{flex-direction: column;}
+    .inspired .inspiredProfiles{flex-direction: column; align-items: center;}
     .inspired .inspiredProfile{margin-bottom:30px;}
     .inspired .inspiredProfile:last-child{margin-bottom:0;}
     .daily .startLivingBtn{width: 100%;}    
