@@ -14,7 +14,8 @@ html, body{max-width:100%; overflow-x: hidden; }
 
 
 .container{
-    width:1000px;
+    /* width:1000px; */
+    width:calc(100vw - 202px);
     margin:0 auto;
     text-align: center;
 }
@@ -37,7 +38,7 @@ h2{
     font-family: "Source Sans SB";
     font-size:16px;
     background-color: var(--color-white);
-    width:280px;
+    width: 280px;
     height:56px;
     line-height: 56px;
     letter-spacing: 1px;
@@ -65,9 +66,11 @@ h2{
     /* height:100vh; */
     /* height: 0; */
     background:url(../images/BG.png) center center / cover no-repeat;
+    background-attachment:fixed;
     min-height: 100%;
     padding-top:27px;
-    /* padding-top: calc(837 / 1400 * 100%); */
+    /* padding-bottom: calc(770 / 1400 * 100%); */
+    /* padding-bottom: calc(883 / 1400 * 100%); */
 }
 
 .header .menuBG{
@@ -100,8 +103,7 @@ h2{
 .header section.hMain{color:var(--color-white); margin-top:104px; text-align: center;}
 
 .header .hMain .hMainTit{margin-bottom:63px;}
-.header .hMain .hMainTit{margin-bottom:63px;}
-.header .hMain .hMainInfo .hMainMsg{font-family: "PlayFair Italic"; font-size:26px;}
+.header .hMain .hMainInfo .hMainMsg{font-family: "PlayFair Italic"; font-size:26px; line-height: 28px;}
 .header .hMain .hMainProfile{display:flex; justify-content: center; align-items: center; margin-top:50px;}
 .header .hMain .hMainProfileL{position:relative;}
 .header .hMain .hMainProfileL .profileNum{font-family: "Source Sans B"; background-color: #99cc00; width:30px; height:30px; line-height:30px; border-radius: 50%; position:absolute; top:-10px; left:33px;}
@@ -111,6 +113,8 @@ h2{
 
 
 .daily{margin-top:97px;}
+
+
 
 
 .inspired{margin-top:196px;}
@@ -125,6 +129,7 @@ h2{
 .create{margin-top:93px; margin-bottom:113px;}
 
 .create .mainTit{margin-bottom:0;}
+.create .createButtons{margin-top:56px;}
 .create .enteryouremail{
     font-family: "Source Sans SB";
     font-size: 16px;
@@ -148,3 +153,43 @@ h2{
 .siteMap .siteMapMenu{line-height: 28px; letter-spacing: 1px; text-align: left;}
 .siteMap .siteMapMenu .siteMap1st{font-family: "Source Sans SB";}    
 .siteMap .siteMapMenu .siteMap2st{font-family: "PTSerif Regular";}
+
+@media (max-width:992px){
+    .header .menuBG, .header .menu{
+        flex-direction: column;
+    }
+
+    .header .navLogo{margin:0;}
+
+    .header .menu li,.header .menu li:last-child{background-color: #FFF; margin:0;}
+    .header section.hMain{margin-top:334px;}
+
+
+    .create .createButtons{display:flex; flex-direction: column; align-items: center;}
+    .create .createButtons button{width:100%;}
+    .create .startLivingBtn{margin-top:0;}
+}
+
+@media (max-width:768px){
+    .inspired .inspiredProfiles{flex-direction: column;}
+    .inspired .inspiredProfile{margin-bottom:30px;}
+    .inspired .inspiredProfile:last-child{margin-bottom:0;}
+    .daily .startLivingBtn{width: 100%;}    
+
+    .siteMap .container{flex-direction: column;}
+    .siteMap .siteMapLogo{margin:0;}
+    .siteMap .siteMapMenu{text-align: center; margin-top:20px;}
+
+
+
+}
+
+@media (max-width:576px){
+
+    .header .hMain .hMainTit br{display:none;}
+
+
+
+
+
+}
