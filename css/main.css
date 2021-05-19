@@ -136,16 +136,13 @@ h2{
     color:var(--color-black);
     width:430px; height:56px; line-height:56px; letter-spacing:1px;
     border:none; margin-right:-5px;
-
 }
-
 
 .siteMap{
     background-color: #333333; color:var(--color-white);
 }
 
 .siteMap .container{display: flex; justify-content: space-between; padding:32px 0px 52px 0px; }
-
 .siteMap .siteMapLogo{    font-family: "PlayFair Bold Italic";
     margin-left: 30px;
     font-size: 26px;
@@ -160,10 +157,8 @@ h2{
     }
 
     .header .navLogo{margin:0;}
-
     .header .menu li,.header .menu li:last-child{background-color: #FFF; margin:0;}
     .header section.hMain{margin-top:334px;}
-
 
     .create .createButtons{display:flex; flex-direction: column; align-items: center;}
     .create .createButtons button{width:100%;}
@@ -179,17 +174,8 @@ h2{
     .siteMap .container{flex-direction: column;}
     .siteMap .siteMapLogo{margin:0;}
     .siteMap .siteMapMenu{text-align: center; margin-top:20px;}
-
-
-
 }
 
 @media (max-width:576px){
-
     .header .hMain .hMainTit br{display:none;}
-
-
-
-
-
 }
