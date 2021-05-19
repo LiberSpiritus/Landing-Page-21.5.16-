@@ -177,6 +177,7 @@ h2{
     .siteMap .container{flex-direction: column;}
     .siteMap .siteMapLogo{margin:0;}
     .siteMap .siteMapMenu{text-align: center; margin-top:20px;}
+    h1{font-size:70px;}
 }
 
 @media (max-width:576px){
